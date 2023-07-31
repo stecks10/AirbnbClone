@@ -4,8 +4,6 @@
 
 This is a repository for a Full Stack Airbnb Clone with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
 
-[VIDEO TUTORIAL](https://youtu.be/c_-b_isI4vg)
-
 Features:
 
 - Tailwind design
@@ -84,4 +82,4 @@ Running commands with npm `npm run [command]`
 | :------ | :--------------------------------------- |
 | `dev`   | Starts a development instance of the app |
 
-## BY VITOR NUNES (https://www.linkedin.com/in/vitor-nunes-do-nascimento-466004197/)
+## feito com ❤️ (https://www.linkedin.com/in/vitor-nunes-do-nascimento-466004197/)
