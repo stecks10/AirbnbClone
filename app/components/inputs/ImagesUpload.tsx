@@ -14,7 +14,7 @@ interface ImageUploadProps {
   value: string;
 }
 
-const ImagesUpload: React.FC<ImageUploadProps> = ({
+const ImageUpload: React.FC<ImageUploadProps> = ({
   onChange,
   value
 }) => {
@@ -60,4 +60,4 @@ const ImagesUpload: React.FC<ImageUploadProps> = ({
   )
 }
 
-export default ImagesUpload
+export default ImageUpload
