@@ -7,7 +7,7 @@ export default async function getFavoriteListings() {
     const currentUser = await getCurrentUser();
 
     if (!currentUser) {
-      return null;
+      return [];
     }
 
     const favorites = await prisma.listing.findMany({
@@ -20,7 +20,7 @@ export default async function getFavoriteListings() {
 
     const safeFavorites = favorites.map((favorite) => ({
       ...favorite,
-      createdAt: favorite.createdAt.toISOString(),
+      createdAt: favorite.createdAt.toString(),
     }));
 
     return safeFavorites;
