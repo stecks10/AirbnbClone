@@ -11,6 +11,14 @@ const ListingPage = async () => {
   const listings = await getFavoriteListings();
   const currentUser = await getCurrentUser();
 
+  if (listings === null) {
+    return (
+      <ClientOnly>
+        <div>Loading...</div>
+      </ClientOnly>
+    );
+  }
+
   if (listings.length === 0) {
     return (
       <ClientOnly>
